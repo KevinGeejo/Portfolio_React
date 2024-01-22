@@ -21,10 +21,15 @@ const Navbar = () => {
                     </div>
                     <div className="hidden md:flex">
                         <div className="ml-10 flex items-baseline space-x-4">
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                            <a href="#" className="relative overflow-hidden text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+    Home
+    <span className="absolute h-0.5 bg-white bottom-0 left-0 w-0 transition-all duration-500 ease-out dark:from-white dark:to-white"></span>
+</a>
+
+
                             <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
                             <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Github</a>
+                            <a href="https://github.com/KevinGeejo" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Github</a>
                         </div>
                     </div>
                     <div onClick={handleNav} className='block md:hidden'>
