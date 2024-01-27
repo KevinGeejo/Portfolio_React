@@ -39,10 +39,10 @@ const Navbar = () => {
                     </div>
                 </div>
                     <div className={nav ? 'fixed left-0 top-0 w-[40%] h-full border-r border-r-black bg-[#171717] p-4' : 'fixed left-[-100%]'}>
-                        <h1 className='w-full text-3xl font-bold m-4 text-white'>Kevin Geejo</h1>
+                        <h1 className='w-full text-2xl font-bold m-4 text-white'>Kevin Geejo</h1>
                         <ul className='pt-24 uppercase p-4'>
                         <li href="#" className="border-b p-4 text-gray-300 border-gray-600 hover:bg-gray-700 hover:text-white rounded-md text-sm font-medium">Home</li>
-                        <li href="#" className="border-b p-4 text-gray-300 hover:bg-gray-700 hover:text-white border-gray-600 rounded-md text-sm font-medium">About</li>
+                        <li href="#About" className="border-b p-4 text-gray-300 hover:bg-gray-700 hover:text-white border-gray-600 rounded-md text-sm font-medium">About</li>
                         <li href="#" className="border-b text-gray-300 border-gray-600 hover:bg-gray-700 p-4 hover:text-white  rounded-md text-sm font-medium">Projects</li>
                         <li href="#" className=" border-b border-gray-600 p-4 text-gray-300 hover:bg-gray-700 hover:text-white rounded-md text-sm font-medium">Github</li>
                         </ul>
