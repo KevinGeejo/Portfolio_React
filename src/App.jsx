@@ -3,12 +3,17 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
+
 
 function App() {
   return (
-    <div> 
+      
+
+    <div className='h-auto w-auto'> 
       <Navbar/>
       <Hero/>
+      <About />
     </div>
   );
 }

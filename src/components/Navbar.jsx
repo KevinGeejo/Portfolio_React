@@ -3,6 +3,7 @@ import { MdClose, MdMenu } from "react-icons/md";
 
 
 
+
 const Navbar = () => {
     const[nav, setNav] = useState(false);
 
@@ -11,12 +12,12 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="bg-[#171717]">
+        <nav className="bg-[#171717] justify-center items-center">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
-                           <h1 className="text-xl text-white font-bold font-mono">Kevin Geejo</h1>
+                           <h1 href="#" className="text-xl text-white font-bold font-mono">Kevin Geejo</h1>
                         </div>
                     </div>
                     <div className="hidden md:flex">
@@ -33,7 +34,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div onClick={handleNav} className='block md:hidden'>
-                        {!nav ? <MdClose color='white' size={30}/> : <MdMenu size={30} color='white'/>}
+                        {nav ? <MdClose color='white' size={30}/> : <MdMenu size={30} color='white'/>}
                         
                     </div>
                 </div>

@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html", "./src/**/*.{js,jsx,ts,tsx,css}",
   ],
   extend: {
       fontFamily: {
-        'mono': ['Menlo', 'ui-monospace', 'SFMono-Regular', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace']
+        'mono': [ 'Menlo', 'ui-monospace', 'SFMono-Regular', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+        'inter': ['Inter' , 'sans-serif']
       }
     },
   plugins: [],
