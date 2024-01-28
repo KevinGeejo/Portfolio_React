@@ -1,5 +1,4 @@
 import React from 'react'
-import bwImg from './assets/img/bw-img.png'; // Add this line
  // Add this line
 const About = () => {
   return (
