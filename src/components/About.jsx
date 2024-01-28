@@ -1,5 +1,6 @@
 import React from 'react'
 import kevinpic from '../assets/img/kevin-about.png'
+import kevincv from '../assets/pdf/Kevin_Resume.pdf'
 
 
  // Add this line
@@ -10,11 +11,12 @@ const About = () => {
 
         <div className='flex w-auto h-auto j justify-between'>
           <p className='text-[#fafafa] font-inter text-[30px] font-bold'>About Me</p>
-          <button className='flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-[8px] w-[167px] h-[50px] text-[16px]'>Download CV
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <path d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM6 20C5.45 20 4.97933 19.8043 4.588 19.413C4.19667 19.0217 4.00067 18.5507 4 18V15H6V18H18V15H20V18C20 18.55 19.8043 19.021 19.413 19.413C19.0217 19.805 18.5507 20.0007 18 20H6Z" fill="black"/>
-            </svg>
-          </button>
+          <a target="_blank"  href="https://drive.google.com/file/d/1OJl0tF9bRIp-uZHTFHn1HHcbUmjTt7u1/view?usp=sharing" className='flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-[8px] w-[167px] h-[50px] text-[16px]'>View Resume
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                      <path d="M9.77 10C11.4269 10 12.77 8.65685 12.77 7C12.77 5.34315 11.4269 4 9.77 4C8.11314 4 6.77 5.34315 6.77 7C6.77 8.65685 8.11314 10 9.77 10Z" stroke="black" stroke-width="2"/>
+                      <path d="M17.958 5.934C18.346 6.406 18.54 6.641 18.54 7C18.54 7.359 18.346 7.594 17.958 8.066C16.538 9.79 13.406 13 9.77 13C6.134 13 3.002 9.79 1.582 8.066C1.194 7.594 1 7.359 1 7C1 6.641 1.194 6.406 1.582 5.934C3.002 4.21 6.134 1 9.77 1C13.406 1 16.538 4.21 17.958 5.934Z" stroke="black" stroke-width="2"/>
+                    </svg>
+          </a>
         </div>
         <div className='bg-[#fdd26a] h-1 w-16 rounded-3xl mr-[70%]'>
           <button></button>
@@ -25,24 +27,32 @@ const About = () => {
           <img className='w-[276px] h-[385px] ' src={kevinpic} alt="Kevin About Section" />
           <div className='ml-[81px] w-[359px] h-[389px]'>
             <p className=' text-[#C9C9C9]  text-[20px] '>A CS'24 undergrad from DBIT. I help companies to build efficient, reusable applications using cutting-edge technology which helps in generating incremental revenue and growth of the company.</p>
-             <div className='flex flex-row justify-between'>
-              <div className='text-[#C9C9C9] mt-[58px] flex-col'>
+              <div className='flex flex-row justify-between'>
+                <div className='text-[#C9C9C9] mt-[58px] flex-col'>
 
-                <h1 className='text-white w-[89px] h-[35] text-[36px] text-center font-semibold'>1</h1>
-                <p className='w-[89px] h-[29px] text-center text-[12px] mt-[10px]'>Year Experience</p>
-              </div>
-              <div className='text-[#C9C9C9] mt-[58px] flex-col'>
+                  <h1 className='text-white w-[89px] h-[35] text-[36px] text-center font-semibold'>1</h1>
+                  <p className='w-[89px] h-[29px] text-center text-[12px] mt-[10px]'>Year Experience</p>
+                </div>
+                <div className='text-[#C9C9C9] mt-[58px] flex-col'>
 
-                <h1 className=' text-white w-[89px] h-[35] text-[36px] text-center font-semibold'>2</h1>
-                <p className='w-[89px] h-[29px] text-center text-[12px] mt-[10px]'>Companies worked for</p>
-              </div>
-              <div className='text-[#C9C9C9] mt-[58px] flex-col'>
+                  <h1 className=' text-white w-[89px] h-[35] text-[36px] text-center font-semibold'>2</h1>
+                  <p className='w-[89px] h-[29px] text-center text-[12px] mt-[10px]'>Companies worked for</p>
+                </div>
+                <div className='text-[#C9C9C9] mt-[58px] flex-col'>
 
-                <h1 className=' text-white w-[89px] h-[35] text-[36px] text-center font-semibold'>1</h1>
-                <p className='w-[89px] h-[29px] text-center text-[12px] mt-[10px]'>Research paper published</p>
+                  <h1 className=' text-white w-[89px] h-[35] text-[36px] text-center font-semibold'>1</h1>
+                  <p className='w-[89px] h-[29px] text-center text-[12px] mt-[10px]'>Research paper published</p>
+                </div>
               </div>
-              </div>
-          </div>
+                  <div className='flex mt-[135px] mr-[135px] '>
+                  <button className='flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-[8px] w-[167px] h-[50px] text-[16px]'>View Projects
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                      <path d="M9.77 10C11.4269 10 12.77 8.65685 12.77 7C12.77 5.34315 11.4269 4 9.77 4C8.11314 4 6.77 5.34315 6.77 7C6.77 8.65685 8.11314 10 9.77 10Z" stroke="black" stroke-width="2"/>
+                      <path d="M17.958 5.934C18.346 6.406 18.54 6.641 18.54 7C18.54 7.359 18.346 7.594 17.958 8.066C16.538 9.79 13.406 13 9.77 13C6.134 13 3.002 9.79 1.582 8.066C1.194 7.594 1 7.359 1 7C1 6.641 1.194 6.406 1.582 5.934C3.002 4.21 6.134 1 9.77 1C13.406 1 16.538 4.21 17.958 5.934Z" stroke="black" stroke-width="2"/>
+                    </svg>
+                  </button>
+                  </div>
+            </div>
         </div>
         
       </div>
