@@ -24,10 +24,25 @@ const About = () => {
         <div className='mt-[94px] flex '>
           <img className='w-[276px] h-[385px] ' src={kevinpic} alt="Kevin About Section" />
           <div className='ml-[81px] w-[359px] h-[389px]'>
-          <p className=' text-[#C9C9C9]  text-[20px] '>A CS'24 graduate from DBIT. I help companies to build efficient, reusable applications using cutting-edge technology which helps in generating incremental revenue and growth of the company.</p>
-          
-          </div>
+            <p className=' text-[#C9C9C9]  text-[20px] '>A CS'24 graduate from DBIT. I help companies to build efficient, reusable applications using cutting-edge technology which helps in generating incremental revenue and growth of the company.</p>
+             <div className='flex flex-row'>
+              <div className='text-[#C9C9C9] mt-[58px] flex-col'>
 
+                <h1 className=' w-[89px] h-[35] text-[36px] text-center font-semibold'>1</h1>
+                <p className='w-[89px] h-[29px] text-center text-[12px] mt-[10px]'>Year Experience</p>
+              </div>
+              <div className='text-[#C9C9C9] mt-[58px] flex-col'>
+
+                <h1 className=' text-[36px] text-center '>1</h1>
+                <p className='w-[89px] h-[29px] text-center'>Year's of Experience</p>
+              </div>
+              <div className='text-[#C9C9C9] mt-[58px] flex-col'>
+
+                <h1 className=' text-[36px] text-center'>1</h1>
+                <p className='w-[89px] h-[29px] text-center'>Year Experience</p>
+              </div>
+              </div>
+          </div>
         </div>
         
       </div>
