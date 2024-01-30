@@ -12,8 +12,8 @@ const Hero = () => {
           <Typed
             className="text-[#fafafa] text-center content-center text-5xl mb-4  font-extrabold"
             strings={['Hi!', "I'm Kevin Geejo."]}
-            typeSpeed={60}
-            backSpeed={60}
+            typeSpeed={70}
+            backSpeed={25}
             loop
             loopCount={2}
           ></Typed>
