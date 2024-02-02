@@ -27,7 +27,7 @@ const Project = () => {
               </p>
               <div className='flex justify-end'>
               <button className='flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]'>
-                <a href="https://github.com/KevinGeejo/ClueNet" className="text-[#FDD26A] text-[14px] mt-[10px] font-bold">
+                <a target='_blank' href="https://github.com/KevinGeejo/ClueNet" className="text-[#FDD26A] text-[14px] mt-[10px] font-bold">
                   <img src={eye}>
                   </img>
                 </a>
