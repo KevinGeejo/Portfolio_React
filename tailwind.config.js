@@ -13,8 +13,10 @@ module.exports = {
         'Courier New',
         'monospace',
       ],
-      inter: ['Inter', 'sans-serif'],
+      inter: ['Inter', 'sans-serif']
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };

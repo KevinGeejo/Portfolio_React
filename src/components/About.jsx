@@ -5,15 +5,16 @@ import kevincv from '../assets/pdf/Kevin_Resume.pdf';
 // Add this line
 const About = () => {
   return (
+    
     <div className="container w-full mx-auto mt-80 max-w-6xl px-8 justify-center ">
-      <div className="bg-[#1e1e1f] rounded-lg w-[900px] h-[862px] shadow-2xl	mx-20 p-20 ">
+      <div className="bg-[#1e1e1f] rounded-lg w-[900px] h-[862px] shadow-xl	mx-20 p-20 ">
         <div className="flex w-auto h-auto justify-between mx-auto">
           <p className="text-[#fafafa] font-inter text-[30px] font-bold">
             About Me
           </p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1OJl0tF9bRIp-uZHTFHn1HHcbUmjTt7u1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1cX95Z8AU-YzbVgI1p7ElzDlpsshMVDhc/view?usp=sharing"
             className="flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-[8px] w-[167px] h-[50px] text-[16px]"
           >
             View Resume

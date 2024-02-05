@@ -4,7 +4,7 @@ import eye from '../assets/img/eye.png';
 const Project = () => {
   return (
     <div className="container w-full mx-auto mt-80 max-w-6xl px-8">
-      <div className="bg-[#1e1e1f] rounded-lg w-[900px] h-[862px] shadow-2xl	mx-20 p-20 mb-20">
+      <div className="bg-[#1e1e1f] rounded-lg w-[900px] h-[862px] shadow-xl	mx-20 p-20 mb-20">
         <div className="flex w-auto h-auto justify-between mx-auto">
           <p className="text-[#fafafa] font-inter text-[30px] font-bold">
             Projects
@@ -24,16 +24,15 @@ const Project = () => {
               A real time Video chat , Texting & Screen Sharing Appliction
               created using NextJs and Firebase
             </p>
-            <div className="flex justify-end">
-              <button className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
+            <div className="flex justify-end ">
+              <a target="_blank" href="https://github.com/KevinGeejo/ClueNet" className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
                 <a
-                  target="_blank"
-                  href="https://github.com/KevinGeejo/ClueNet"
-                  className="text-[#FDD26A] text-[14px] mt-[10px] font-bold"
+                  
+                  className=" mt-[10px]"
                 >
-                  <img src={eye}></img>
+                  <img  src={eye}></img>
                 </a>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -48,15 +47,14 @@ const Project = () => {
               created using NextJs and Firebase
             </p>
             <div className="flex justify-end">
-              <button className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
+              <a target="_blank" href="https://github.com/KevinGeejo/ClueNet" className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
                 <a
-                  target="_blank"
-                  href="https://github.com/KevinGeejo/ClueNet"
+                  
                   className="text-[#FDD26A] text-[14px] mt-[10px] font-bold"
                 >
                   <img src={eye}></img>
                 </a>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -71,15 +69,14 @@ const Project = () => {
               created using NextJs and Firebase
             </p>
             <div className="flex justify-end">
-              <button className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
+              <a target="_blank" href="https://github.com/KevinGeejo/ClueNet" className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
                 <a
-                  target="_blank"
-                  href="https://github.com/KevinGeejo/ClueNet"
+                  
                   className="text-[#FDD26A] text-[14px] mt-[10px] font-bold"
                 >
                   <img src={eye}></img>
                 </a>
-              </button>
+              </a>
             </div>
           </div>
         </div>
