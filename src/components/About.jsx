@@ -2,6 +2,7 @@ import React from 'react';
 import kevinpic from '../assets/img/kevin-about.png';
 import kevincv from '../assets/pdf/Kevin_Resume.pdf';
 
+
 // Add this line
 const About = () => {
   return (
@@ -52,7 +53,7 @@ const About = () => {
             alt="Kevin About Section"
           />
           <div className="ml-[81px] w-[359px] h-[389px]">
-            <p className=" text-[#C9C9C9]  text-[20px] ">
+            <p className="font-inter font-medium text-[#C9C9C9]  text-[20px] ">
               A CS'24 undergrad from DBIT. I help companies to build efficient,
               reusable applications using cutting-edge technology which helps in
               generating incremental revenue and growth of the company.

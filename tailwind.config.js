@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  content: ['./public/index.html', './src/**/*.{js,jsx,ts,tsx,css}'],
+  content: ['./public/index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
   extend: {
     fontFamily: {
       mono: [
@@ -13,9 +15,10 @@ module.exports = {
         'Courier New',
         'monospace',
       ],
-      inter: ['Inter', 'sans-serif']
+      inter: ["Inter", "sans-serif"],
     },
   },
+},
   plugins: [
     
   ],
