@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 const Hero = () => {
   return (
     <div className="container mx-auto max-w-6xl px-8   justify-center">
-      <div className="bg-[#171717] text-white py-20 flex justify-left items-left mt-[12%] justify-center flex-col">
+      <div className="bg-[#0b0a0a] text-white py-20 flex justify-left items-left mt-[12%] justify-center flex-col">
         <div className="flex flex-col items-center text-left py-auto justify-center">
           {' '}
           {/* Modified className */}
