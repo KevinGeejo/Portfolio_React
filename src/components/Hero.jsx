@@ -1,11 +1,25 @@
 import React from 'react';
 import Typed from 'react-typed';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Hero = () => {
   return (
     
     <div className="container mx-auto max-w-6xl px-8   justify-center">
       <div className=" text-white py-20 flex justify-left items-left mt-[12%] justify-center flex-col">
+          <div className='flex flex-col justify-between ml-20 absolute w-[30px] h-[170px]'>
+             <a target="_blank" href='https://www.linkedin.com/in/kevin-geejo/'>
+              <FontAwesomeIcon size="xl" icon={faLinkedin} />
+             </a>
+             <a target="_blank" href='https://twitter.com/DevDudley'>
+              <FontAwesomeIcon size="xl" icon={faTwitter} />
+             </a>
+             <a target="_blank" href='https://github.com/KevinGeejo'>
+              <FontAwesomeIcon size="xl" icon={faGithub} />
+             </a>
+
+            </div>
         <div className="flex flex-col items-center text-left py-auto justify-center">
           {' '}
           {/* Modified className */}
