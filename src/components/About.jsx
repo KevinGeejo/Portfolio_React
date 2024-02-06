@@ -1,12 +1,13 @@
 import React from 'react';
 import kevinpic from '../assets/img/kevin-about.png';
 import kevincv from '../assets/pdf/Kevin_Resume.pdf';
+import { Link } from 'react-scroll';
 
 // Add this line
 const About = () => {
   return (
     
-    <div className="container w-full mx-auto mt-80 max-w-6xl px-8 justify-center ">
+    <div id="about" className="container w-full mx-auto my-[80px]  max-w-6xl px-8 justify-center ">
       <div className="bg-[#111111] rounded-lg w-[900px] h-[862px] shadow-xl	mx-20 p-20 ">
         <div className="flex w-auto h-auto justify-between mx-auto">
           <p className="text-[#fafafa] font-inter text-[30px] font-bold">
@@ -84,7 +85,13 @@ const About = () => {
               </div>
             </div>
             <div className="flex mt-[135px] mr-[135px] ">
-              <button className="flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-[8px] w-[167px] h-[50px] text-[16px]">
+              <Link 
+              to="projects"
+                spy={true} 
+      smooth={true} 
+      offset={-80} 
+      duration={500} 
+              className="flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-[8px] w-[167px] h-[50px] text-[16px]">
                 View Projects
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +111,7 @@ const About = () => {
                     stroke-width="2"
                   />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

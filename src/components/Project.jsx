@@ -3,7 +3,7 @@ import eye from '../assets/img/eye.png';
 
 const Project = () => {
   return (
-    <div className="container w-full mx-auto mt-80 max-w-6xl px-8">
+    <div id="projects" className="container w-full mx-auto my-[80px] max-w-6xl px-8">
       <div className="bg-[#111111] rounded-lg w-[900px] h-[862px] shadow-xl	mx-20 p-20 mb-20">
         <div className="flex w-auto h-auto justify-between mx-auto">
           <p className="text-[#fafafa] font-inter text-[30px] font-bold">
@@ -59,7 +59,7 @@ const Project = () => {
         </div>
         <div className="mt-[30px] flex flex-col w-[340px] h-[213px] bg-[#424242] rounded-xl shadow-xlg">
           <div className="w-[267px] h-[115px] mt-[28px] ml-[28px] ">
-            <p className="text-[14px] text-[#FDD26A] font-bold">2023</p>
+            <p className="text-[14px] text-[#FDD26A] font-bold">2024</p>
             <h3 className="font-inter font-bold text-[#ffffff] mt-[10px] text-[16px]">
               Blockchain Voting System
             </h3>

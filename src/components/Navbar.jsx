@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MdClose, MdMenu } from 'react-icons/md';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,33 +15,48 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 href="#" className="text-xl text-white font-bold font-mono">
+              <Link to="hero" spy={true} 
+      smooth={true} 
+      offset={-170} 
+      duration={500}  className="text-xl text-white font-bold font-mono">
                 Kevin Geejo
-              </h1>
+              </Link>
             </div>
           </div>
           <div className="hidden md:flex">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a
-                href="#"
+              <Link
+                to="hero"
+                spy={true} 
+      smooth={true} 
+      offset={-190} 
+      duration={500} 
                 className="relative overflow-hidden text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
                 <span className="absolute h-0.5 bg-white bottom-0 left-0 w-0 transition-all duration-500 ease-out dark:from-white dark:to-white"></span>
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="about"
+                spy={true} 
+      smooth={true} 
+      offset={-80} 
+      duration={500} 
                 className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 About
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="projects"
+                spy={true} 
+      smooth={true} 
+      offset={-80} 
+      duration={500} 
                 className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Projects
-              </a>
+              </Link>
               <a
                 href="https://github.com/KevinGeejo"
                 target="_blank"
