@@ -62,7 +62,7 @@ const About = () => {
                 <h1 className="text-white w-[89px] h-[35] text-[36px] text-center font-semibold">
                   1
                 </h1>
-                <p className="w-[89px] h-[29px] text-center text-[12px] mt-[10px]">
+                <p className="font-inter w-[89px] h-[29px] text-center text-[12px] mt-[10px]">
                   Year Experience
                 </p>
               </div>
@@ -70,7 +70,7 @@ const About = () => {
                 <h1 className=" text-white w-[89px] h-[35] text-[36px] text-center font-semibold">
                   1
                 </h1>
-                <p className="w-[89px] h-[29px] text-center text-[12px] mt-[10px]">
+                <p className="font-inter w-[89px] h-[29px] text-center text-[12px] mt-[10px]">
                   Companies worked for
                 </p>
               </div>
@@ -78,7 +78,7 @@ const About = () => {
                 <h1 className=" text-white w-[89px] h-[35] text-[36px] text-center font-semibold">
                   1
                 </h1>
-                <p className="w-[89px] h-[29px] text-center text-[12px] mt-[10px]">
+                <p className="font-inter w-[89px] h-[29px] text-center text-[12px] mt-[10px]">
                   Research paper published
                 </p>
               </div>

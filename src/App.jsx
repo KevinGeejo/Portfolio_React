@@ -12,13 +12,12 @@ function App() {
       
       <Navbar />
 
-      <div className='scrollbar scrollbar-thumb-red-700'>
       <Hero />
       <About />
       <Project />
       <Footer />
 
-      </div>
+      
 
     </div>
   );

@@ -17,10 +17,10 @@ const Project = () => {
         <div className="flex flex-col w-[340px] h-[213px] bg-[#424242] rounded-xl shadow-xlg">
           <div className="w-[267px] h-[115px] mt-[28px] ml-[28px] ">
             <p className="text-[14px] text-[#FDD26A] font-bold">2023</p>
-            <h3 className="font-bold text-[#F5F4F4] mt-[10px] text-[16px]">
+            <h3 className="font-inter font-bold text-[#ffffff] mt-[10px] text-[16px]">
               ClueNet : A NextJs Application
             </h3>
-            <p className="text-[#A8A3A5] text-[13px] mt-[10px]">
+            <p className="text-[#d2d2d2] text-[13px] mt-[10px]">
               A real time Video chat , Texting & Screen Sharing Appliction
               created using NextJs and Firebase
             </p>
@@ -38,16 +38,15 @@ const Project = () => {
         </div>
         <div className="flex flex-col w-[340px] h-[213px] bg-[#424242] rounded-xl shadow-xlg">
           <div className="w-[267px] h-[115px] mt-[28px] ml-[28px] ">
-            <p className="text-[14px] text-[#FDD26A] font-bold">2023</p>
-            <h3 className="font-bold text-[#F5F4F4] mt-[10px] text-[16px]">
-              ClueNet : A NextJs Application
+            <p className="text-[14px] text-[#FDD26A] font-bold">2021</p>
+            <h3 className="font-inter font-bold text-[#ffffff] mt-[10px] text-[16px]">
+              Railway Ticket Booking System
             </h3>
-            <p className="text-[#A8A3A5] text-[13px] mt-[10px]">
-              A real time Video chat , Texting & Screen Sharing Appliction
-              created using NextJs and Firebase
+            <p className="text-[#d2d2d2] text-[13px] mt-[10px]">
+              A JavaFx-based application that allows users to login, create accounts, and book railway tickets
             </p>
             <div className="flex justify-end">
-              <a target="_blank" href="https://github.com/KevinGeejo/ClueNet" className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
+              <a target="_blank" href="https://github.com/KevinGeejo/Railway-Ticket-Booking-System-JavaFx-main" className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
                 <a
                   
                   className="text-[#FDD26A] text-[14px] mt-[10px] font-bold"
@@ -61,15 +60,15 @@ const Project = () => {
         <div className="mt-[30px] flex flex-col w-[340px] h-[213px] bg-[#424242] rounded-xl shadow-xlg">
           <div className="w-[267px] h-[115px] mt-[28px] ml-[28px] ">
             <p className="text-[14px] text-[#FDD26A] font-bold">2023</p>
-            <h3 className="font-bold text-[#F5F4F4] mt-[10px] text-[16px]">
-              ClueNet : A NextJs Application
+            <h3 className="font-inter font-bold text-[#ffffff] mt-[10px] text-[16px]">
+              Blockchain Voting System
             </h3>
-            <p className="text-[#A8A3A5] text-[13px] mt-[10px]">
+            <p className="text-[#d2d2d2] text-[13px] mt-[10px]">
               A real time Video chat , Texting & Screen Sharing Appliction
               created using NextJs and Firebase
             </p>
-            <div className="flex justify-end">
-              <a target="_blank" href="https://github.com/KevinGeejo/ClueNet" className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
+            <div className=" absolute ml-[220px] flex justify-end">
+              <a target="_blank" href="https://github.com/KevinGeejo/Blockchain_Voting_System" className="flex border-[1px]	w-[66px] h-[40px] rounded-xl justify-center border-[#fdd26a]">
                 <a
                   
                   className="text-[#FDD26A] text-[14px] mt-[10px] font-bold"
