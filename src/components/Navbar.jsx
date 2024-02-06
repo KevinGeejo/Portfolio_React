@@ -30,7 +30,7 @@ const Navbar = () => {
               </a>
 
               <a
-                href="#"
+                href="/about"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 About
@@ -77,7 +77,7 @@ const Navbar = () => {
               Home
             </li>
             <li
-              href="#About"
+              href="#"
               className="border-b p-4 text-gray-300 hover:bg-gray-700 hover:text-white border-gray-600 rounded-md text-sm font-medium"
             >
               About
