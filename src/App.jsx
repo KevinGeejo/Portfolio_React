@@ -8,6 +8,7 @@ import Project from './components/Project';
 function App() {
   return (
     <div className="h-auto w-auto">
+ 
       <Navbar />
       <Hero />
       <About />

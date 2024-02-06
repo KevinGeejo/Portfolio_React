@@ -4,7 +4,7 @@ import eye from '../assets/img/eye.png';
 const Project = () => {
   return (
     <div className="container w-full mx-auto mt-80 max-w-6xl px-8">
-      <div className="bg-[#1e1e1f] rounded-lg w-[900px] h-[862px] shadow-xl	mx-20 p-20 mb-20">
+      <div className="bg-[#111111] rounded-lg w-[900px] h-[862px] shadow-xl	mx-20 p-20 mb-20">
         <div className="flex w-auto h-auto justify-between mx-auto">
           <p className="text-[#fafafa] font-inter text-[30px] font-bold">
             Projects

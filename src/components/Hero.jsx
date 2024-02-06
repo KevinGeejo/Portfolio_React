@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 const Hero = () => {
   return (
     <div className="container mx-auto max-w-6xl px-8   justify-center">
-      <div className="bg-[#0b0a0a] text-white py-20 flex justify-left items-left mt-[12%] justify-center flex-col">
+      <div className=" text-white py-20 flex justify-left items-left mt-[12%] justify-center flex-col">
         <div className="flex flex-col items-center text-left py-auto justify-center">
           {' '}
           {/* Modified className */}
@@ -28,7 +28,7 @@ const Hero = () => {
                     </button> */}
         </div>
         <div className="flex justify-center">
-          <button className="bg-[#fdd26a] hover:bg-[#eeeeee] text-black font-bold py-3 px-8 rounded-xl">
+          <button className="bg-[#fdd26a] hover:bg-transparent hover:text-[#fdd26a] hover:border-[0.2px] hover:border-[#fdd26a] text-black font-bold py-3 px-8 rounded-xl">
             About Me
           </button>
         </div>
