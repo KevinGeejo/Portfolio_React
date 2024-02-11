@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <Link to="hero" spy={true} 
+              <Link href="" to="hero" spy={true} 
       smooth={true} 
       offset={-170} 
       duration={500}  className="text-xl text-white font-bold font-mono">
@@ -26,6 +26,7 @@ const Navbar = () => {
           <div className="hidden md:flex">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
+              href="" 
                 to="hero"
                 spy={true} 
       smooth={true} 
@@ -38,6 +39,7 @@ const Navbar = () => {
               </Link>
 
               <Link
+              href="" 
                 to="about"
                 spy={true} 
       smooth={true} 
@@ -48,6 +50,7 @@ const Navbar = () => {
                 About
               </Link>
               <Link
+              href="" 
                 to="projects"
                 spy={true} 
       smooth={true} 
@@ -58,6 +61,7 @@ const Navbar = () => {
                 Projects
               </Link>
               <a
+              
                 href="https://github.com/KevinGeejo"
                 target="_blank"
                 rel="noopener noreferrer"

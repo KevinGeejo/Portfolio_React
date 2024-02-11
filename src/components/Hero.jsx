@@ -44,7 +44,7 @@ const Hero = () => {
                     </button> */}
         </div>
         <div className="flex justify-center">
-          <Link to="about" spy={true} 
+          <Link href="" to="about" spy={true} 
       smooth={true} 
       offset={-80} 
       duration={500}  className="bg-[#fdd26a] hover:bg-transparent hover:text-[#fdd26a] hover:border-[0.2px] hover:border-[#fdd26a] text-black font-bold py-3 px-8 rounded-xl">

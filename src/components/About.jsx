@@ -86,6 +86,7 @@ const About = () => {
             </div>
             <div className="flex mt-[135px] mr-[135px] ">
               <Link 
+              href="" 
               to="projects"
                 spy={true} 
       smooth={true} 
