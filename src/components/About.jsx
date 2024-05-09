@@ -61,7 +61,7 @@ const About = () => {
             <div className="flex flex-row justify-between">
               <div className="text-[#C9C9C9] mt-[58px] flex-col">
                 <h1 className="text-white w-[89px] h-[35] text-[36px] text-center font-semibold">
-                  1
+                  -
                 </h1>
                 <p className="font-inter w-[89px] h-[29px] text-center text-[12px] mt-[10px]">
                   Year Experience
