@@ -15,7 +15,7 @@ const About = () => {
           </p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1cX95Z8AU-YzbVgI1p7ElzDlpsshMVDhc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1kmoXo_sHbDmi4TcJD_y5eQ8MISDrMEBu/view?usp=sharing"
             className="flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-[8px] w-[167px] h-[50px] text-[16px]"
           >
             View Resume
