@@ -1,5 +1,4 @@
 import React from 'react';
-import eye from '../assets/img/eye.png';
 
 const Project = () => {
   return (
@@ -30,8 +29,22 @@ const Project = () => {
               </p>
             </div>
             <div className="flex justify-end">
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/KevinGeejo/ClueNet" className="flex border-2 w-16 h-12 lg:w-20 lg:h-14 rounded-xl justify-center items-center border-[#fdd26a] hover:bg-[#fdd26a] hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl">
-                <img src={eye} alt="View project" className="w-6 h-6 lg:w-8 lg:h-8" />
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/KevinGeejo/ClueNet" className="flex border-2 w-12 h-12 lg:w-14 lg:h-14 rounded-xl justify-center items-center border-[#fdd26a] hover:bg-[#fdd26a] hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl group">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="text-[#fdd26a] group-hover:text-black"
+                >
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
               </a>
             </div>
           </div>
@@ -47,8 +60,22 @@ const Project = () => {
               </p>
             </div>
             <div className="flex justify-end">
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/KevinGeejo/Railway-Ticket-Booking-System-JavaFx-main" className="flex border-2 w-16 h-12 lg:w-20 lg:h-14 rounded-xl justify-center items-center border-[#fdd26a] hover:bg-[#fdd26a] hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl">
-                <img src={eye} alt="View project" className="w-6 h-6 lg:w-8 lg:h-8" />
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/KevinGeejo/Railway-Ticket-Booking-System-JavaFx-main" className="flex border-2 w-12 h-12 lg:w-14 lg:h-14 rounded-xl justify-center items-center border-[#fdd26a] hover:bg-[#fdd26a] hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl group">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="text-[#fdd26a] group-hover:text-black"
+                >
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
               </a>
             </div>
           </div>
@@ -64,8 +91,22 @@ const Project = () => {
               </p>
             </div>
             <div className="flex justify-end">
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/KevinGeejo/Blockchain_Voting_System" className="flex border-2 w-16 h-12 lg:w-20 lg:h-14 rounded-xl justify-center items-center border-[#fdd26a] hover:bg-[#fdd26a] hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl">
-                <img src={eye} alt="View project" className="w-6 h-6 lg:w-8 lg:h-8" />
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/KevinGeejo/Blockchain_Voting_System" className="flex border-2 w-12 h-12 lg:w-14 lg:h-14 rounded-xl justify-center items-center border-[#fdd26a] hover:bg-[#fdd26a] hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-xl group">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="text-[#fdd26a] group-hover:text-black"
+                >
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
               </a>
             </div>
           </div>

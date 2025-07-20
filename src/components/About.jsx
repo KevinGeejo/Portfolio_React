@@ -19,32 +19,30 @@ const About = () => {
               My Introduction
             </p>
           </div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1kmoXo_sHbDmi4TcJD_y5eQ8MISDrMEBu/view?usp=sharing"
-            className="flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-lg w-full sm:w-[180px] lg:w-[200px] h-[50px] lg:h-[55px] text-base lg:text-lg hover:bg-transparent hover:text-[#fdd26a] hover:border-2 hover:border-[#fdd26a] transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            View Resume
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="14"
-              viewBox="0 0 20 14"
-              fill="none"
+          <div className="flex justify-center sm:justify-end w-full sm:w-auto">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1kmoXo_sHbDmi4TcJD_y5eQ8MISDrMEBu/view?usp=sharing"
+              className="flex items-center gap-2 bg-[#fdd26a] font-inter font-semibold rounded-lg px-4 lg:px-5 h-[48px] lg:h-[52px] text-sm lg:text-base hover:bg-transparent hover:text-[#fdd26a] hover:border-2 hover:border-[#fdd26a] transition-all duration-300 shadow-lg hover:shadow-xl"
             >
-              <path
-                d="M9.77 10C11.4269 10 12.77 8.65685 12.77 7C12.77 5.34315 11.4269 4 9.77 4C8.11314 4 6.77 5.34315 6.77 7C6.77 8.65685 8.11314 10 9.77 10Z"
+              View Resume
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
-              />
-              <path
-                d="M17.958 5.934C18.346 6.406 18.54 6.641 18.54 7C18.54 7.359 18.346 7.594 17.958 8.066C16.538 9.79 13.406 13 9.77 13C6.134 13 3.002 9.79 1.582 8.066C1.194 7.594 1 7.359 1 7C1 6.641 1.194 6.406 1.582 5.934C3.002 4.21 6.134 1 9.77 1C13.406 1 16.538 4.21 17.958 5.934Z"
-                stroke="currentColor"
-                strokeWidth="2"
-              />
-            </svg>
-          </a>
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </a>
+          </div>
         </div>
 
         <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-12 lg:space-y-0 lg:space-x-16 xl:space-x-20 mt-12 lg:mt-20">
@@ -95,25 +93,21 @@ const About = () => {
       smooth={true} 
       offset={-80} 
       duration={500} 
-              className="flex flex-nowrap items-center content-between justify-evenly bg-[#fdd26a] font-inter font-bold rounded-lg w-full sm:w-[180px] lg:w-[200px] h-[50px] lg:h-[55px] text-base lg:text-lg hover:bg-transparent hover:text-[#fdd26a] hover:border-2 hover:border-[#fdd26a] transition-all duration-300 cursor-pointer shadow-lg hover:shadow-xl">
+              className="flex items-center gap-2 bg-[#fdd26a] font-inter font-semibold rounded-lg px-4 lg:px-5 h-[48px] lg:h-[52px] text-sm lg:text-base hover:bg-transparent hover:text-[#fdd26a] hover:border-2 hover:border-[#fdd26a] transition-all duration-300 cursor-pointer shadow-lg hover:shadow-xl">
                 View Projects
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="14"
-                  viewBox="0 0 20 14"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
                   fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
-                  <path
-                    d="M9.77 10C11.4269 10 12.77 8.65685 12.77 7C12.77 5.34315 11.4269 4 9.77 4C8.11314 4 6.77 5.34315 6.77 7C6.77 8.65685 8.11314 10 9.77 10Z"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  />
-                  <path
-                    d="M17.958 5.934C18.346 6.406 18.54 6.641 18.54 7C18.54 7.359 18.346 7.594 17.958 8.066C16.538 9.79 13.406 13 9.77 13C6.134 13 3.002 9.79 1.582 8.066C1.194 7.594 1 7.359 1 7C1 6.641 1.194 6.406 1.582 5.934C3.002 4.21 6.134 1 9.77 1C13.406 1 16.538 4.21 17.958 5.934Z"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  />
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
                 </svg>
               </Link>
             </div>

@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 const Hero = () => {
   return (
     
-    <div id="hero" className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 min-h-[600px] lg:min-h-[700px] py-8 sm:py-12 lg:py-20 pt-20 lg:pt-28">
+    <div id="hero" className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 min-h-[600px] lg:min-h-[700px] py-8 sm:py-12 lg:py-20 pt-32 sm:pt-36 lg:pt-28">
       <div className="text-white flex flex-col items-center justify-center relative h-full">
           <div className='hidden lg:flex flex-col justify-between absolute left-4 xl:left-12 top-1/2 transform -translate-y-1/2 w-[30px] h-[170px] drop-shadow-[0_5px_35px_rgba(250,250,250,0.15)]'>
              <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/kevin-geejo/' className="hover:scale-110 transition-transform">
