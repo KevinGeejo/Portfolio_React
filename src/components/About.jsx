@@ -91,7 +91,7 @@ const About = () => {
               to="projects"
                 spy={true} 
       smooth={true} 
-      offset={-80} 
+      offset={-40} 
       duration={500} 
               className="flex items-center gap-2 bg-[#fdd26a] font-inter font-semibold rounded-lg px-4 lg:px-5 h-[48px] lg:h-[52px] text-sm lg:text-base hover:bg-transparent hover:text-[#fdd26a] hover:border-2 hover:border-[#fdd26a] transition-all duration-300 cursor-pointer shadow-lg hover:shadow-xl">
                 View Projects

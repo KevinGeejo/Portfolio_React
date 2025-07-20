@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="flex justify-center mt-8 lg:mt-12">
           <Link href="" to="about" spy={true} 
       smooth={true} 
-      offset={-80} 
+      offset={-40} 
       duration={500}  className="bg-[#fdd26a] hover:bg-transparent hover:text-[#fdd26a] hover:border-2 hover:border-[#fdd26a] text-black font-bold py-4 px-8 lg:py-5 lg:px-12 rounded-xl transition-all duration-300 cursor-pointer text-lg lg:text-xl shadow-lg hover:shadow-2xl">
             About Me
           </Link>
