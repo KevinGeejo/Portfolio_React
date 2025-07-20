@@ -47,7 +47,7 @@ const Navbar = () => {
                 to="about"
                 spy={true} 
       smooth={true} 
-      offset={-80} 
+      offset={-40} 
       duration={500} 
                 className="relative overflow-hidden text-gray-300 hover:bg-gray-700 hover:text-white px-4 lg:px-6 py-2 lg:py-3 rounded-lg text-sm lg:text-base font-medium transition-all duration-300 cursor-pointer group"
               >
@@ -59,7 +59,7 @@ const Navbar = () => {
                 to="projects"
                 spy={true} 
       smooth={true} 
-      offset={-80} 
+      offset={-40} 
       duration={500} 
                 className="relative overflow-hidden text-gray-300 hover:bg-gray-700 hover:text-white px-4 lg:px-6 py-2 lg:py-3 rounded-lg text-sm lg:text-base font-medium transition-all duration-300 cursor-pointer group"
               >

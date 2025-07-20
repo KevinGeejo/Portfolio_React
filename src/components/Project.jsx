@@ -2,28 +2,28 @@ import React from 'react';
 
 const Project = () => {
   return (
-    <div id="projects" className="container w-full mx-auto my-16 sm:my-20 lg:my-32 max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div className="bg-[#111111] rounded-2xl w-full max-w-6xl shadow-2xl mx-auto p-8 sm:p-12 lg:p-16 xl:p-24 mb-16 sm:mb-20 lg:mb-32">
-        <div className="flex w-auto h-auto justify-between mx-auto mb-8 lg:mb-12">
+    <div id="projects" className="container w-full mx-auto my-12 sm:my-16 lg:my-24 xl:my-32 max-w-7xl px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
+      <div className="bg-[#111111] rounded-2xl w-full max-w-6xl shadow-2xl mx-auto p-6 sm:p-8 lg:p-12 xl:p-16 my-8 lg:my-12">
+        <div className="flex w-auto h-auto justify-between mx-auto mb-6 lg:mb-8">
           <div>
-            <p className="text-[#fafafa] font-inter text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
+            <p className="text-[#fafafa] font-inter text-3xl sm:text-4xl lg:text-4xl xl:text-5xl font-bold mb-3 sm:mb-4 lg:mb-6">
               Projects
             </p>
-            <div className="bg-[#fdd26a] h-1.5 w-20 lg:w-24 rounded-3xl mb-3">
+            <div className="bg-[#fdd26a] h-1.5 w-20 lg:w-24 rounded-3xl mb-2 lg:mb-3">
             </div>
             <p className="text-sm lg:text-base text-[#C9C9C9]">
               My Portfolio
             </p>
           </div>
         </div>
-        <div className='w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-10 xl:gap-12 mt-16 lg:mt-24'>
-          <div className="flex flex-col w-full bg-[#424242] rounded-2xl shadow-2xl p-8 lg:p-10 hover:bg-[#4a4a4a] transition-all duration-300 hover:scale-105 hover:shadow-3xl">
+        <div className='w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8 xl:gap-10 mt-8 lg:mt-12'>
+          <div className="flex flex-col w-full bg-[#424242] rounded-2xl shadow-2xl p-6 lg:p-8 hover:bg-[#4a4a4a] transition-all duration-300 hover:scale-105 hover:shadow-3xl">
             <div className="flex-1">
-              <p className="text-sm lg:text-base text-[#FDD26A] font-bold mb-3">2023</p>
-              <h3 className="font-inter font-bold text-[#ffffff] text-xl lg:text-2xl xl:text-3xl mb-4 leading-tight">
+              <p className="text-sm lg:text-base text-[#FDD26A] font-bold mb-2 lg:mb-3">2023</p>
+              <h3 className="font-inter font-bold text-[#ffffff] text-lg lg:text-xl xl:text-2xl mb-3 lg:mb-4 leading-tight">
                 ClueNet : A NextJs Application
               </h3>
-              <p className="text-[#d2d2d2] text-base lg:text-lg mb-6 leading-relaxed">
+              <p className="text-[#d2d2d2] text-sm lg:text-base mb-4 lg:mb-6 leading-relaxed">
                 A real time Video chat, Texting & Screen Sharing Application
                 created using NextJs and Firebase
               </p>
@@ -49,13 +49,13 @@ const Project = () => {
             </div>
           </div>
           
-          <div className="flex flex-col w-full bg-[#424242] rounded-2xl shadow-2xl p-8 lg:p-10 hover:bg-[#4a4a4a] transition-all duration-300 hover:scale-105 hover:shadow-3xl">
+          <div className="flex flex-col w-full bg-[#424242] rounded-2xl shadow-2xl p-6 lg:p-8 hover:bg-[#4a4a4a] transition-all duration-300 hover:scale-105 hover:shadow-3xl">
             <div className="flex-1">
-              <p className="text-sm lg:text-base text-[#FDD26A] font-bold mb-3">2021</p>
-              <h3 className="font-inter font-bold text-[#ffffff] text-xl lg:text-2xl xl:text-3xl mb-4 leading-tight">
+              <p className="text-sm lg:text-base text-[#FDD26A] font-bold mb-2 lg:mb-3">2021</p>
+              <h3 className="font-inter font-bold text-[#ffffff] text-lg lg:text-xl xl:text-2xl mb-3 lg:mb-4 leading-tight">
                 Railway Ticket Booking System
               </h3>
-              <p className="text-[#d2d2d2] text-base lg:text-lg mb-6 leading-relaxed">
+              <p className="text-[#d2d2d2] text-sm lg:text-base mb-4 lg:mb-6 leading-relaxed">
                 A JavaFx-based application that allows users to login, create accounts, and book railway tickets
               </p>
             </div>
@@ -80,13 +80,13 @@ const Project = () => {
             </div>
           </div>
           
-          <div className="flex flex-col w-full bg-[#424242] rounded-2xl shadow-2xl p-8 lg:p-10 hover:bg-[#4a4a4a] transition-all duration-300 hover:scale-105 hover:shadow-3xl lg:col-span-2 xl:col-span-1">
+          <div className="flex flex-col w-full bg-[#424242] rounded-2xl shadow-2xl p-6 lg:p-8 hover:bg-[#4a4a4a] transition-all duration-300 hover:scale-105 hover:shadow-3xl md:col-span-2 xl:col-span-1">
             <div className="flex-1">
-              <p className="text-sm lg:text-base text-[#FDD26A] font-bold mb-3">2024</p>
-              <h3 className="font-inter font-bold text-[#ffffff] text-xl lg:text-2xl xl:text-3xl mb-4 leading-tight">
+              <p className="text-sm lg:text-base text-[#FDD26A] font-bold mb-2 lg:mb-3">2024</p>
+              <h3 className="font-inter font-bold text-[#ffffff] text-lg lg:text-xl xl:text-2xl mb-3 lg:mb-4 leading-tight">
                 Blockchain Voting System
               </h3>
-              <p className="text-[#d2d2d2] text-base lg:text-lg mb-6 leading-relaxed">
+              <p className="text-[#d2d2d2] text-sm lg:text-base mb-4 lg:mb-6 leading-relaxed">
                 A secure and transparent voting system built using blockchain technology for immutable vote recording
               </p>
             </div>

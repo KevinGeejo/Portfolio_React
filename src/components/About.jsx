@@ -6,16 +6,16 @@ import { Link } from 'react-scroll';
 const About = () => {
   return (
     
-    <div id="about" className="container w-full mx-auto my-16 sm:my-20 lg:my-32 max-w-7xl px-4 sm:px-6 lg:px-8 justify-center">
-      <div className="bg-[#111111] rounded-2xl w-full max-w-6xl shadow-2xl mx-auto p-8 sm:p-12 lg:p-16 xl:p-24">
-        <div className="flex flex-col sm:flex-row w-auto h-auto justify-between items-start mx-auto mb-8 lg:mb-12">
+    <div id="about" className="container w-full mx-auto my-12 sm:my-16 lg:my-24 xl:my-32 max-w-7xl px-4 sm:px-6 lg:px-8 justify-center min-h-screen flex items-center">
+      <div className="bg-[#111111] rounded-2xl w-full max-w-6xl shadow-2xl mx-auto p-6 sm:p-8 lg:p-12 xl:p-16 my-8 lg:my-12">
+        <div className="flex flex-col sm:flex-row w-auto h-auto justify-between items-start mx-auto mb-6 lg:mb-8">
           <div>
-            <p className="text-[#fafafa] font-inter text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
+            <p className="text-[#fafafa] font-inter text-3xl sm:text-4xl lg:text-4xl xl:text-5xl font-bold mb-3 sm:mb-4 lg:mb-6">
               About Me
             </p>
-            <div className="bg-[#fdd26a] h-1.5 w-20 lg:w-24 rounded-3xl mb-3">
+            <div className="bg-[#fdd26a] h-1.5 w-20 lg:w-24 rounded-3xl mb-2 lg:mb-3">
             </div>
-            <p className="text-sm lg:text-base text-[#C9C9C9] mb-8 sm:mb-12 lg:mb-0">
+            <p className="text-sm lg:text-base text-[#C9C9C9] mb-6 sm:mb-8 lg:mb-0">
               My Introduction
             </p>
           </div>
@@ -45,42 +45,42 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-12 lg:space-y-0 lg:space-x-16 xl:space-x-20 mt-12 lg:mt-20">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-12 xl:space-x-16 mt-8 lg:mt-12">
           <div className="flex-shrink-0">
             <img
-              className="w-72 h-96 sm:w-80 sm:h-[420px] lg:w-[320px] lg:h-[440px] xl:w-[360px] xl:h-[480px] rounded-2xl object-cover shadow-xl"
+              className="w-64 h-80 sm:w-72 sm:h-96 lg:w-[280px] lg:h-[380px] xl:w-[320px] xl:h-[420px] rounded-2xl object-cover shadow-xl"
               src={kevinpic}
               alt="Kevin About Section"
             />
           </div>
           <div className="flex-1 w-full max-w-lg lg:max-w-none">
-            <p className="font-inter font-medium text-[#C9C9C9] text-xl sm:text-2xl lg:text-3xl xl:text-4xl mb-12 sm:mb-16 lg:mb-20 text-center lg:text-left leading-relaxed">
+            <p className="font-inter font-medium text-[#C9C9C9] text-lg sm:text-xl lg:text-2xl xl:text-3xl mb-8 sm:mb-10 lg:mb-12 text-center lg:text-left leading-relaxed">
               A CS'24 undergrad from DBIT. I help companies to build efficient,
               reusable applications using cutting-edge technology which helps in
               generating incremental revenue and growth of the company.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-6 xl:gap-12 mb-12 sm:mb-16 lg:mb-20">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 lg:gap-8 xl:gap-10 mb-8 sm:mb-10 lg:mb-12">
               <div className="text-[#C9C9C9] flex flex-col items-center text-center">
-                <h1 className="text-white text-4xl lg:text-5xl xl:text-6xl font-semibold mb-2">
+                <h1 className="text-white text-3xl lg:text-4xl xl:text-5xl font-semibold mb-1 lg:mb-2">
                   1
                 </h1>
-                <p className="font-inter text-sm lg:text-base">
+                <p className="font-inter text-xs lg:text-sm">
                   Year Experience
                 </p>
               </div>
               <div className="text-[#C9C9C9] flex flex-col items-center text-center">
-                <h1 className="text-white text-4xl lg:text-5xl xl:text-6xl font-semibold mb-2">
+                <h1 className="text-white text-3xl lg:text-4xl xl:text-5xl font-semibold mb-1 lg:mb-2">
                   2
                 </h1>
-                <p className="font-inter text-sm lg:text-base">
+                <p className="font-inter text-xs lg:text-sm">
                   Companies worked for
                 </p>
               </div>
               <div className="text-[#C9C9C9] flex flex-col items-center text-center">
-                <h1 className="text-white text-4xl lg:text-5xl xl:text-6xl font-semibold mb-2">
+                <h1 className="text-white text-3xl lg:text-4xl xl:text-5xl font-semibold mb-1 lg:mb-2">
                   1
                 </h1>
-                <p className="font-inter text-sm lg:text-base">
+                <p className="font-inter text-xs lg:text-sm">
                   Research paper published
                 </p>
               </div>
