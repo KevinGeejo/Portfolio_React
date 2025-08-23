@@ -5,7 +5,7 @@
   "description": "Kevin Geejo's professional portfolio website showcasing web development projects and skills",
   "keywords": ["portfolio", "react", "web developer", "full stack", "kevin geejo"],
   "author": "Kevin Geejo",
-  "homepage": "https://your-domain.com",
+  "homepage": "https://kevingeejo.me/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
