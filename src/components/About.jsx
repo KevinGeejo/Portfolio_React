@@ -7,10 +7,9 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Kevin Geejo - Full Stack Developer | Portfolio</title>
         <meta name="description" content="Learn more about Kevin Geejo, a CS'24 graduate from DBIT with expertise in building efficient, reusable applications using cutting-edge technology." />
         <meta name="keywords" content="About Kevin Geejo, CS Graduate, DBIT, Full Stack Developer, Web Development Experience" />
-        <link rel="canonical" href="https://your-domain.com/#about" />
+        <link rel="canonical" href="https://kevingeejo.me/#about" />
       </Helmet>
       
       <section id="about" className="container w-full mx-auto my-12 sm:my-16 lg:my-24 xl:my-32 max-w-7xl px-4 sm:px-6 lg:px-8 justify-center min-h-screen flex items-center">

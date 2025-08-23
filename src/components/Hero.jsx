@@ -9,10 +9,9 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        <title>Kevin Geejo - Full Stack Developer | Portfolio</title>
         <meta name="description" content="Kevin Geejo is a fullstack developer from Mumbai, India. Specializing in building efficient, reusable applications using cutting-edge technology." />
         <meta name="keywords" content="Kevin Geejo, Full Stack Developer, Mumbai, India, Web Development, React, JavaScript" />
-        <link rel="canonical" href="https://your-domain.com/#hero" />
+        <link rel="canonical" href="https://kevingeejo.me/#hero" />
       </Helmet>
       
       <section id="hero" className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 min-h-[600px] lg:min-h-[700px] py-8 sm:py-12 lg:py-20 pt-32 sm:pt-36 lg:pt-40">

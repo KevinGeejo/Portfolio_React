@@ -5,10 +5,9 @@ const Project = () => {
   return (
     <>
       <Helmet>
-        <title>Projects - Kevin Geejo | Full Stack Developer Portfolio</title>
         <meta name="description" content="Explore Kevin Geejo's projects including ClueNet video chat app, Railway Ticket Booking System, and Blockchain Voting System. View his development work and technical skills." />
         <meta name="keywords" content="Kevin Geejo Projects, ClueNet, NextJS, Video Chat, Railway Booking, Blockchain Voting, Web Development Portfolio" />
-        <link rel="canonical" href="https://your-domain.com/#projects" />
+        <link rel="canonical" href="https://kevingeejo.me/#projects" />
       </Helmet>
       
       <section id="projects" className="container w-full mx-auto my-12 sm:my-16 lg:my-24 xl:my-32 max-w-7xl px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
