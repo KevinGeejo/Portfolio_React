@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 
 const currentDate = new Date().toISOString().split('T')[0];
-const baseUrl = 'https://your-domain.com'; // Update this with your actual domain
+const baseUrl = 'https://kevingeejo.me'; // Update this with your actual domain
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -61,4 +61,4 @@ console.log('\n📋 Next steps:');
 console.log('1. Update the baseUrl variable with your actual domain');
 console.log('2. Add this script to your package.json scripts section');
 console.log('3. Run "npm run generate-sitemap" before each deployment');
-console.log('4. Submit your sitemap to Google Search Console'); 
+console.log('4. Submit your sitemap to Google Search Console');

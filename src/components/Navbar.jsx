@@ -99,9 +99,9 @@ const Navbar = () => {
           }`}
         >
           <div className="flex justify-between items-center p-6 border-b border-gray-500 bg-[#0a0a0a]">
-            <h1 className="text-xl font-bold text-white font-inter">
+            <h3 className="text-xl font-bold text-white font-inter">
               Kevin Geejo
-            </h1>
+            </h3>
             <button onClick={closeNav} className="p-2 rounded-lg hover:bg-gray-600 transition-colors duration-300">
               <MdClose color="white" size={24} />
             </button>
