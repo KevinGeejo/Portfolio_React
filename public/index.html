@@ -2,7 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Favicon Configuration - Using existing favicon.ico -->
+    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="%PUBLIC_URL%/favicon.ico"
+    />
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileColor" content="#111111" />
+    <meta name="msapplication-TileImage" content="%PUBLIC_URL%/logo192.png" />
+    <meta
+      name="msapplication-config"
+      content="%PUBLIC_URL%/browserconfig.xml"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#111111" />
 
@@ -36,7 +55,13 @@
       property="og:description"
       content="CS'24 graduate from DBIT with expertise in building efficient, reusable applications using cutting-edge technology. View my projects and experience in web development."
     />
-    <meta property="og:image" content="%PUBLIC_URL%/logo512.png" />
+    <meta property="og:image" content="https://kevingeejo.me/logo512.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta
+      property="og:image:alt"
+      content="Kevin Geejo - Full Stack Developer Logo"
+    />
     <meta property="og:site_name" content="Kevin's Portfolio" />
     <meta property="og:locale" content="en_US" />
 
@@ -51,15 +76,17 @@
       property="twitter:description"
       content="CS'24 graduate from DBIT with expertise in building efficient, reusable applications using cutting-edge technology. View my projects and experience in web development."
     />
-    <meta property="twitter:image" content="%PUBLIC_URL%/logo512.png" />
+    <meta
+      property="twitter:image"
+      content="https://kevingeejo.me/logo512.png"
+    />
+    <meta
+      property="twitter:image:alt"
+      content="Kevin Geejo - Full Stack Developer Logo"
+    />
 
     <!-- Additional SEO Meta Tags -->
     <meta name="application-name" content="Kevin's Portfolio" />
-    <meta name="msapplication-TileColor" content="#111111" />
-    <meta
-      name="msapplication-config"
-      content="%PUBLIC_URL%/browserconfig.xml"
-    />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://kevingeejo.me/" />
@@ -68,7 +95,6 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
 
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <!-- Font Awesome with integrity -->
@@ -85,7 +111,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Kevin",
+        "name": "Kevin Geejo",
         "jobTitle": "Full Stack Developer",
         "alumniOf": {
           "@type": "EducationalOrganization",
@@ -93,10 +119,10 @@
         },
         "description": "CS'24 graduate with expertise in building efficient, reusable applications using cutting-edge technology",
         "url": "https://kevingeejo.me/",
-        "image": "%PUBLIC_URL%/logo512.png",
+        "image": "https://kevingeejo.me/logo512.png",
         "sameAs": [
-          "https://github.com/yourusername",
-          "https://linkedin.com/in/yourusername"
+          "https://github.com/KevinGeejo",
+          "https://linkedin.com/in/kevin-geejo"
         ],
         "knowsAbout": [
           "Web Development",
@@ -110,6 +136,18 @@
           "name": "Software Developer",
           "description": "Building efficient, reusable applications using cutting-edge technology"
         }
+      }
+    </script>
+
+    <!-- Organization Schema for Logo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kevin Geejo Portfolio",
+        "url": "https://kevingeejo.me/",
+        "logo": "https://kevingeejo.me/logo512.png",
+        "description": "Professional portfolio website showcasing web development projects and skills"
       }
     </script>
 
